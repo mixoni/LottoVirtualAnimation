@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="./css/main.css" rel="stylesheet" />
+    <link href="./css/Ball.css" rel="stylesheet" />
+    <!--<link href="./css/bootstrap.css" rel="stylesheet" />-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+     <!-- scripts -->
+    <script src="./dist/app-bundle.js"></script>
+    <!--<script src="./MainScript.jsx"></script>-->
+    <!--<script type="text/javascript">
+        var $ball = $('#balls > div'),
+        diameter = $ball.height(),
+        perimeter = Math.PI * diameter,
+		    n = $ball.length,
+        i = 0,
+		    itv;
+
+        itv = setInterval(function(){
+	        if(i>n)clearInterval(itv);
+	        rotateBall( 500-(diameter*i) );
+	        i++;
+        },2000);
+
+    function rotateBall(distance) {
+	    console.log( distance );
+      var degree = distance * 360 / perimeter;
+	    $ball.eq(i).css({
+		    transition: "2s cubic-bezier(1.000, 1.450, 0.185, 0.850)",
+		    transform: 'translateX('+ distance +'px)'
+	    }).find('div').css({
+		    transition: "2s cubic-bezier(1.000, 1.450, 0.185, 0.850)",
+		    transform: 'rotate(' + degree + 'deg)'
+	    });
+    }
+    </script>-->
+</body>
+</html>

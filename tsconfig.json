@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "jsx": "react",
+    "outDir": "./built",    
+    "allowJs": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "app.tsx"
+  ]
+}
